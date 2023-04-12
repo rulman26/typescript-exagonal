@@ -9,4 +9,6 @@ export class UserCreate {
         this.fisrtName = fisrtName
         this.lastName = lastName
     }
+
+    
 }
