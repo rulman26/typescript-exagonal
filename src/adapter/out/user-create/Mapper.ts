@@ -2,9 +2,6 @@ import { UserCreate } from "../../../domain/UserCreate";
 import { UserEntity } from "./UserEntity";
 
 export class Mapper{
-    constructor() {
-    }
-
     static entityToDomain(entity : UserEntity): UserCreate{
         let userCreate = new UserCreate(entity.fisrtName, entity.lastName)
         return userCreate
